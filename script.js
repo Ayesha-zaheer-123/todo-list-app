@@ -1,4 +1,4 @@
-let total=2; 
+       let total=2; 
         let completed=0; 
         let totalbtn=document.querySelector("#msg"); 
         let completedbtn=document.querySelector("#msg2"); 
@@ -74,3 +74,4 @@ completedbtn.innerText=completed;
   taskdiv.remove(); 
 } 
         }); 
+        
