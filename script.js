@@ -29,9 +29,9 @@
     btnWrapper.append(completeBtn); 
     btnWrapper.append(deleteBtn); 
      
-    div.append(btnWrapper);  // wrapper ko bhi task div mein daalo 
+    div.append(btnWrapper); 
      
-    tasklist.append(div);    // poora naya task, tasklist mein add karo 
+    tasklist.append(div);   
      
     total += 1; 
     pending += 1; 
