@@ -1,0 +1,172 @@
+*{ 
+        margin:0; 
+        padding:0; 
+       } 
+       body{ 
+        background-color:#F1DABF; 
+        color:white; 
+       } 
+       h1{ 
+        color:#92817A; 
+        text-align:center; 
+       } 
+       .main-container{ 
+        height:600px; 
+        width:300px; 
+        background-color:#FFFBFF ; 
+        margin:auto; 
+        border-radius:50px; 
+        border:2px solid white; 
+        text-align:center; 
+        overflow:auto; 
+border:2px solid #a8a19d; 
+box-shadow:2px #92817A; 
+       } 
+       .buttons{ 
+   width:100%; 
+    display:flex; 
+    justify-content: space-between; 
+       } 
+       .tasks{ 
+        height:70px; 
+        width:30%; 
+        margin-top:5px; 
+        padding:3px; 
+        border-radius:17px; 
+        color: #5a4a42;  
+       } 
+       #total{ 
+        background-color:#E8C9A8; 
+        margin-left:2px; 
+        color: #8a6a45; 
+       } 
+       #completed{ 
+background-color:#C8D9B8; 
+color:#4a6a3a; 
+       } 
+       #pending{ 
+        background-color: #D9B8C8; 
+        color:#8a4a65;  
+       } 
+       #msg{ 
+        margin-top:5px; 
+       } 
+       #msg2{ 
+        margin-top:5px; 
+       } 
+       #msg3{ 
+        padding:5px; 
+       } 
+       h2 { 
+  color: #92817A; 
+  margin-top: 15px; 
+} 
+.task { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color:#f5ece0 ;   /* light cream, container se match karta hua */ 
+  padding:10px; 
+  margin-bottom: 8px; 
+  border-radius: 12px; 
+} 
+.task-buttons{ 
+    display:flex; 
+    justify-content: center; 
+    flex-shrink:0; 
+    gap:8px; 
+} 
+.complete-btn, .delete-btn { 
+height:35px; 
+width:70px; 
+font-size:13px; 
+border:none; 
+border-radius:25px; 
+cursor:pointer; 
+} 
+.complete-btn { 
+  background-color: #C8D9B8;    
+  color: #3a4a2a; 
+} 
+ 
+.delete-btn { 
+  background-color: #E8B8B8;    
+  color: #5a2a2a; 
+} 
+ .task p { 
+  color: #5a4a42; 
+} 
+.new-btn{ 
+     background-color: #B8916B; 
+    color:white; 
+    border:none; 
+    border-radius:30px; 
+    font-size:19px; 
+    padding:20px; 
+    margin-top:20px; 
+    cursor:pointer; 
+} 
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 28px;
+    margin: 15px 0;
+  }
+
+  .main-container {
+    width: 90%;
+    height: auto;
+    min-height: 550px;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding-bottom: 20px;
+  }
+
+  .buttons {
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .tasks {
+    width: 33%;
+    height: 60px;
+    font-size: 13px;
+  }
+
+  #msg,
+  #msg2,
+  #msg3 {
+    margin-top: 5px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .task {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin: 8px;
+  }
+
+  .task p {
+    text-align: center;
+  }
+
+  .task-buttons {
+    width: 100%;
+    gap: 5px;
+  }
+
+  .complete-btn,
+  .delete-btn {
+    width: 50%;
+    font-size: 11px;
+  }
+
+  .new-btn {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
