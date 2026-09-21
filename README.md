@@ -22,7 +22,7 @@ A rounded card-style app showing task stats (Total, Completed, Pending) at the t
 
 - **HTML5**
 - **CSS3** (Flexbox, media queries)
-- **JavaScript (Vanilla)** — DOM manipulation, event listeners
+- **JavaScript (Vanilla)**  DOM manipulation, event listeners
 
 ## Getting Started
 
