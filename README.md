@@ -1,4 +1,4 @@
-# To Do App
+# todo-list-app
 
 A simple Todo App built with plain HTML, CSS, and JavaScript. It lets you add tasks, mark them as completed, delete them, and keeps a live count of total, completed, and pending tasks.
 
@@ -34,7 +34,7 @@ You just need a web browser. No build tools or dependencies required.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/Ayesha-zaheer-123/todo-app.git
+   git clone https://github.com/Ayesha-zaheer-123/todo-list-app.git
    ```
 
 2. Navigate to the project folder
